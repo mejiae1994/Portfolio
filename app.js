@@ -1,3 +1,4 @@
+console.log("works");
 var express = require('express');
 var pg = require('pg'); //postgres
 var parser = require('body-parser');
@@ -12,7 +13,6 @@ app.use(parser.urlencoded({
 }));
 
 var conString =  "postgres://vhjgjiqcikkpvw:7222fb3c4180cef605991df34f44238f788abe622f9e5930361f6c0d59170208@ec2-23-21-220-152.compute-1.amazonaws.com:5432/ddkiab6sfdsd8u";
-
 pg.connect(conString, function (err, client, done) {
     if (err) {
       // pass the error to the express error handler
@@ -26,7 +26,7 @@ pg.connect(conString, function (err, client, done) {
   });
 
 
-
+console.log("works2");
 
 
 //var express = require('express');
