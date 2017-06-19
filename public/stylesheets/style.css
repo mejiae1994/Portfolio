@@ -1,0 +1,90 @@
+#content {
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+    background-position: center;
+}
+
+#image {
+    background: url(http://www.planwallpaper.com/static/images/Mario-mario-wallpaper-hd-games-1920x1080.jpg);
+    background-size:cover;
+    font-family: Lato;
+    height: 500px;
+    margin-bottom: 40px;
+   
+}
+.navbar-brand {
+    color: white;
+}
+
+.jumbotron {
+   background-color: darkgrey;
+    clear: both;
+    margin-top: 15%;
+    resize: 20%;
+}
+#stuff {
+    color: white;
+}
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+   
+    border: solid 1px crimson;
+}
+.container h2 {
+   
+    font-size: 36px;
+    font-weight: 300;
+    display: block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:darkslategrey;
+    
+}
+.row p {
+    
+   display: block;
+}
+
+#date {
+    font-size: 12px;
+}
+
+#boton {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.col-sm-9 p {
+    margin: clear;
+    font-weight: 300;
+    
+    font-size: 17px;
+    border-radius: 1em;
+    
+    
+}
+.col-sm-9 {
+    background-color: azure;
+    border: solid white;
+    border-radius: 1em;
+    margin-bottom: 15px;
+   
+}
+.container h2 {
+    text-align-last: center;
+    
+}
