@@ -134,5 +134,6 @@ app.get('/portfolio', function(req, res)
         res.render('portfolio');
 });
 
-app.listen(process.env.PORT)
- 
+app.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', app.address().port);
+});
