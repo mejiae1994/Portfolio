@@ -21,7 +21,7 @@ pg.connect(conString, function (err, client, done) {
        
         
     client.query('CREATE table if not exists postlist(id SERIAL Primary key not null, title varchar(254) not null, post text not null)');
-    
+    //littleS
     
   });
 
