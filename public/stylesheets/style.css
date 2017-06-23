@@ -85,6 +85,8 @@ img:hover {
     border: solid white;
     border-radius: 1em;
     margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 20px;
    
 }
 .container h2 {
@@ -132,4 +134,12 @@ p {
 }
 h1 {
     font-size: 45px;
+}
+#porti {
+    border: 1px solid #337ab7; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    margin-top: 20px;
+    margin-left:50px;
 }
