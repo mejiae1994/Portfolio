@@ -12,18 +12,19 @@ app.use(parser.urlencoded({
   extended: true
 }));
 
-var conString =  "postgres://vhjgjiqcikkpvw:7222fb3c4180cef605991df34f44238f788abe622f9e5930361f6c0d59170208@ec2-23-21-220-152.compute-1.amazonaws.com:5432/ddkiab6sfdsd8u";
-pg.connect(conString, function (err, client, done) {
-    if (err) {
-      // pass the error to the express error handler
-      return next(err)
-    }
-       
-        
-    client.query('CREATE table if not exists postlist(id SERIAL Primary key not null, title varchar(254) not null, post text not null)');
-    //littleS
-    
-  });
+var conString = "postgres://postgres:123456@localhost:5432/posts";
+//var conString =  "postgres://vhjgjiqcikkpvw:7222fb3c4180cef605991df34f44238f788abe622f9e5930361f6c0d59170208@ec2-23-21-220-152.compute-1.amazonaws.com:5432/ddkiab6sfdsd8u";
+//pg.connect(conString, function (err, client, done) {
+//    if (err) {
+//      // pass the error to the express error handler
+//      return next(err)
+//    }
+//       
+//        
+//    client.query('CREATE table if not exists postlist(id SERIAL Primary key not null, title varchar(254) not null, post text not null)');
+//    //littleS
+//    
+//  });
 
 
 console.log("works2");
@@ -45,7 +46,7 @@ console.log("works2");
 //client.connect();
 
 
-var lastid = 0;
+
 // getting data from the database
 app.get('/', function (req, res, next) {  
   
