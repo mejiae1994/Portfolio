@@ -1,6 +1,6 @@
 # Portfolio
 
-Live project
+<strong> Live project </strong>
 You can find the live project here: https://portfolio-809.herokuapp.com/
 
 Synopsis
